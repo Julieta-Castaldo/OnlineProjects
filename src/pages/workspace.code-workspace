@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\app\\appnode"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
