@@ -98,8 +98,7 @@ class ModalAñadir extends Component  {
                     <div>
                       <div class="form-group">
                         <label>Project Name</label>
-                        <input class="form-control col-xs-12 col-md-12 col-lg-12" type="text" name="nameForm" value={this.state.nameForm} onChange={this.handleChange.bind(this)}></input>
-                      </div>
+                        <input class="form-control col-xs-12 col-md-12 col-lg-12" type="text" name="nameForm" value={this.state.nameForm} onChange={this.handleChange.bind(this)}></input>                      </div>
                     </div>
                   </div>
                   <div class="">
