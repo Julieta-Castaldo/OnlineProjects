@@ -21,7 +21,7 @@ class ModalEditar extends Component  {
 
    
     editar(id){
-        if ((this.state.nameForm == '') || (this.state.descriptionForm == '') || (this.state.managerForm == '') || (this.state.assignedForm == '') || (this.state.statusForm == '')) {
+        if ((this.state.nameForm == '') || (this.state.descriptionForm == '') || (this.state.managerForm == 'Select a person') || (this.state.assignedForm == 'Select a person') || (this.state.statusForm == '')) {
             this.setState({
                 mensaje: 'Please complete'
             })
