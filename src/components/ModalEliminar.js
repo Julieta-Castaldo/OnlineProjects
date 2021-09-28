@@ -14,7 +14,7 @@ class ModalEliminar extends Component  {
     }
 
     eliminar(id){
-      axios.delete(`https://julinode.herokuapp.com/${id}`)
+      axios.delete(`https://estoes-node.herokuapp.com//${id}`)
       .then(res => {
           console.log(res);
           this.cerrar();

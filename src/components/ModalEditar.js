@@ -26,7 +26,7 @@ class ModalEditar extends Component  {
                 mensaje: 'Please complete'
             })
         } else {
-        axios.put(`https://julinode.herokuapp.com/${id}`,
+        axios.put(`https://estoes-node.herokuapp.com/${id}`,
         {
           "name": this.state.nameForm,
           "description": this.state.descriptionForm,
